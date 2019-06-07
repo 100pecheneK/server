@@ -9,6 +9,7 @@ while ($cat = mysqli_fetch_assoc($categories_q)) {
     <div class="row">
         <div class="col">
             <a class="btn btn-primary" href="/pages/articles.php" role="button">Все статьи</a>            
+            <a class="btn btn-primary" href="/pages/create_article.php" role="button">Создать статью</a> 
         </div>
     </div>
     <div class="row">
@@ -26,13 +27,4 @@ while ($cat = mysqli_fetch_assoc($categories_q)) {
             </ol>
         </div>
     </div>
-
-    <!-- <div class="p-3">
-        <h4 class="font-italic">Читаемые</h4>
-        <ol class="list-unstyled">
-            <li><a href="#">Статья 1</a></li>
-            <li><a href="#">Статья 2</a></li>
-            <li><a href="#">Статья 3</a></li>
-        </ol>
-    </div> -->
 </aside>

@@ -1,6 +1,7 @@
 <?php
 require "includes/config.php";
 ?>
+
 <!doctype html>
 <html lang="ru">
 
@@ -20,7 +21,6 @@ require "includes/config.php";
     <?php include "includes/header.php" ?>
     <!-- -------------------------End header------------------------- -->
     <!-- ------------------------Топ читаемых------------------------ -->
-
     <div class="container" style="padding-bottom: 15px;">
         <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
             <div class="carousel-inner">

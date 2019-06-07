@@ -1,12 +1,12 @@
 <?php
 
 $config = array(
-    'title' => 'Статюшка',
+    'title' => 'Косолапытыч',
     'db' => array(
-        'server' => '192.168.0.104',
+        'server' => 'localhost',
         'username' => 'root',
         'password' => '',
-        'name' => 'test_blog'
+        'name' => 'mysite'
     
     ),
     'about' => 'Мы предоставляем вам отборные статьи на разные темы каждый день.',

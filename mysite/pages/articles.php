@@ -64,7 +64,7 @@ require "../includes/config.php"
                     }
                     while ($art = mysqli_fetch_assoc($articles)) {
                         // Это переменная считает какая сейчас статья, что бы исполнить перенос статей на следующюю строчку
-                        $art_count = 1;
+                        
                         ?>
                             <!-- Карточки со статьями -->
                             <div class="col-md-12" style="margin-bottom: 15px;">
@@ -121,12 +121,9 @@ require "../includes/config.php"
                             </div>
                             <!-- Возможно будет работать без этого -->
                             <!-- Если это вторая статья, то спустить следующюю вниз. Примерно так работает w-100 в Bootstrap 4.  -->
-                            <?php if ($art_count % 2 == 0) {
-                                ?>
-                                <div class="w-100"></div>
                             <?php
-                        }
-                        $art_count += 1;
+                        
+                        
                     }
                     ?>
                     </div>
